@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.slideshow-container .content {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Black background with transparency */
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #004d4d;
+  font-size: 22px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+</style>
+</head>
+<body>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 10</div>
+  <img src="../picture/p1.jpg" style="width:100%">
+  <div class="content">
+    <h1>Tim Athletic's gym-a</h1>
+    <p>U klubu Crveni Krst na raspolaganju su 3 personalna instruktora i 5 instruktorki grupnih treninga koje 
+        ve&#382;ba&#269; ima na raspolaganju pored TechnoGym-ovih sprava za ve&#382;banje i poliuretanskih 
+        tegova.</p>
+  </div>
+
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 10</div>
+  <img src="../picture/p2.jpg" style="width:100%">
+  <div class="content">
+    <h1>Savremena rekreacija</h1>
+            <p>Lociran na op&#353;tini Vra&#269;ar, nadomak Beogradskog Dramskog Pozori&#353;ta na Crvenom Krstu, ovaj klub vizuelno
+         i sadr&#382;ajno zadovoljava potrebe relativno izbirljivih stanovnika ove Beogradske op&#353;tine. 
+         Prostor u dva nivoa pored velikog prostora za trening sa tegovima nudi i salu za grupne programe.</p>
+  </div>
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 10</div>
+  <img src="../picture/p3.jpg" style="width:100%">
+  <div class="content">
+    <h1>21 godina tradicije</h1>
+    <p>Fitness klub "Athletic's Gym" je oformljen 1996. godine. Na samom po&#269;etku rada, klub je radio kao sekcija
+         za aerobik i body building pri sportskom centru Partizan &#269;ukarica na Banovom brdu, a od 20. januara 
+         1998. godine kao samostalni sportski klub.</p>
+  </div>
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+    <div class="numbertext">4 / 10</div>
+    <img src="../picture/p4.jpg" style="width:100%">
+    <div class="content">
+        <h1>Funkcionalnost</h1>
+        <p>Funkcionalnost kluba se ogleda u opremljenosti samog prostora, trenerima i pru&#382;enoj usluzi.
+             U skladu sa ovim, sva 4 fitness studija raspola&#382;u sa moderno dizajniranim enterijerom,
+              ventilacijom, klimatizacijom, prijemnim delom, sportskim suplementima, svla&#269;ionicama sa ormari&#263;ima 
+              za garderobu, tu&#353; kabinama, aerobik salom, profesionalnom Technogym Cardio i Strenght opremom
+               i izuzetno prihvatljivim &#269;lanarinama.</p>
+      </div>
+    <div class="text"></div>
+  </div>
+
+  
+  
+         <div class="mySlides fade">
+           <div class="numbertext">5 / 10</div>
+           <img src="../picture/p5.jpg" style="width:100%">
+         <div class="content">
+           <h1>Opremljenost</h1>
+           <p>Preko 60 Cardio Technogym ma&#353;ina i preko 60 Technogym ma&#353;ina sa optere&#263;enjem i 25 klupa
+             i sprava za ve&#382;banje &#269;ine ovaj prostor potpunim, a ve&#382;banje produktivnim.</p>
+      </div>
+    <div class="text"></div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">6 / 10</div>
+    <img src="../picture/p6.jpg" style="width:100%">
+    <div class="content">
+        <h1>Stru&#269;nost</h1>
+        <p>Fakultet sporta i fizi&#269;ke kulture i nekoliko vi&#353;ih &#353;kola za sportske trenere &#269;ine bazu za
+             instruktore i personalne trenere.
+             Kako bismo pratili svetske trendove kada je fitness u pitanju, trudimo se da prikupimo &#353;to vi&#353;e informacija 
+             putem konvencija,
+              interneta, &#269;asopisa, stru&#269;ne literature i od na&#353;ih kolega iz zemalja gde je fitness izuzetno razvijen.</p>
+      </div>
+    <div class="text"></div>
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">7 / 10</div>
+    <img src="../picture/p7.jpg" style="width:100%">
+    <div class="content">
+        <h1>Novi program</h1>
+        <p>Novi program podrazumeva ve&#382;banje u maloj grupi (5-8 &#382;ena) i posebno je zna&#269;ajan za podizanje fizi&#269;ke spreme, 
+            izdr&#382;ljivost, koordinaciju, fleksibilnost, ve&#382;be snage i ravnote&#382;u.
+
+            Promotivna cena za prvih 5 dama koje budu uplatile iznosi 3000 dinara.</p>
+      </div>
+    <div class="text"></div>
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">8 / 10</div>
+    <img src="../picture/p8.jpg" style="width:100%">
+    <div class="content">
+        <h1>Besplatni probni trening</h1>
+        <p>Probni treninzi za sve na&#353;e fitness programe su na raspolaganju potencijalnim &#269;lanovima. Uverite se i sami da su programi 
+            koje mi realizujemo kvalitetni, zdravi i prakti&#269;ni i da je upravo to ono &#353;to Vam je zaista i potrebno!</p>
+      </div>
+    <div class="text"></div>
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">9 / 10</div>
+    <img src="../picture/p9.jpg" style="width:100%">
+    <div class="content">
+        <h1>Novi program - Athletic's women challenge</h1>
+        <p>Pozivamo sve dame da se pridru&#382;e jedinstvenom grupnom programu koji &#263;e se odr&#382;avati u klubu na Vo&#382;dovcu.
+
+            Athletic's women challenge - predstavlja program ve&#382;banja koji daje akcenat na gubitku masnih naslaga i oblikovanju tela.
+            Program obuhvata sasvim novi koncept ve&#382;banja uz stalni nadzor trenera, pri &#269;emu &#263;e se treninzi planski odvijiati, 
+            kako u sali tako i u teretani fitness centra</p>
+      </div>
+    <div class="text"></div>
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">10 / 10</div>
+    <img src="../picture/p10.jpg" style="width:100%">
+    <div class="content">
+        <h1>1 &#269;lanarina, 4 kluba</h1>
+        <p>Naši &#269;lanovi imaju mogućnost kombinovanog ve&#382;banja u na&#353;im klubovima na &#269;etiri razli&#269;ite lokacije po jedinstvenoj 
+            ceni od 2600 din.</p>
+      </div>
+    <div class="text"></div>
+  </div>
+  
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+  <span class="dot" onclick="currentSlide(6)"></span>
+  <span class="dot" onclick="currentSlide(7)"></span>
+  <span class="dot" onclick="currentSlide(8)"></span>
+  <span class="dot" onclick="currentSlide(9)"></span>
+  <span class="dot" onclick="currentSlide(10)"></span>
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+
+</body>
+</html> 

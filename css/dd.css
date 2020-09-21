@@ -1,0 +1,193 @@
+body{
+	background-image: url(../picture/trening5.png);
+	background-attachment: fixed;
+	background-size: 1950px 1083px;
+	background-position: center;
+	
+	margin-left: 20px;
+	margin-right: 20px;	
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+}
+
+
+
+#panel, #flip {
+	color: white;
+    padding: 5px;
+    text-align: center;
+	background-color: #014141;
+	opacity: 0.8;
+
+    border: solid 5px #012929;
+}
+
+#panel {
+    padding: 100px;
+	display: none;
+	font: white;
+}
+
+
+
+
+#sadrzaj{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 5px;
+	color: #f6ffff;
+	
+	
+	
+}
+
+h4{
+	font-family: sans-serif;
+	font-size: 25px;
+	opacity: 0.7;
+	color: #ffffff;
+}
+
+h1{
+	
+	color: #ffffff;
+	float: left;
+
+}
+
+
+
+#onama{
+	margin-left: 15px;
+	background-color: #004d4d;
+	opacity: 0.7;
+	color: #ffffff;
+	margin-bottom: 20px;
+	margin-right: 20px;
+	
+
+}
+
+#sadrzaj h1{
+	
+	font-size: 28px;
+	color: #ffffff;
+
+}
+
+#sadrzaj h3{
+	
+	font-size: 20px;
+	color: #fff;
+
+}
+
+#forma{
+
+
+	background-color: #004d4d;
+	opacity: 0.5;
+	color:#ffffff;
+	font-size: 25px;
+	margin-bottom: 20px;
+	margin-left: 15px;
+	margin-right: 15px;
+	
+}
+
+
+
+h2{
+	color: #37afa5;
+	font-size: 40px;
+	text-align: center;
+
+	
+}
+
+#regbuttons{
+	margin-top: 40px;
+	float: right;
+ 
+}
+#regbuttons button{
+	background-color: #004d4d;
+	font-size: 25px;
+	opacity: 0.7;
+	color: white;
+}
+
+
+
+
+a{
+	color: #ffffff;	
+	text-decoration: none;
+
+}
+#vest{
+	color: white;
+	font-size: 20px; 
+}
+
+
+#footer{
+	margin-right: 0px;
+	margin-left: 0px;
+}
+#magazin{
+	font-size: 24px;
+	float: left;
+}
+#magazin a{
+	color: #ffffff;
+}
+#magazin a:hover{
+	color: #79a6d2;
+}
+
+
+#copyright{
+color: #ffffff;
+text-align: center;
+margin-top: 20px;
+font-size: 24px;
+
+}
+#social a img{
+	float: right;
+
+	
+}
+#sadrzajTrenera .flip{
+	font: white;
+}
+#sadrzajTrenera .image{
+	float: left;
+	margin-right: 35px;
+
+	margin-left: 10px;
+
+}
+#sadrzajTrenera h1{
+	font-size: 26px;
+	color: #000000;
+	margin-left: 10px;
+	
+
+	}
+#sadrzajTrenera h4{
+	font-size: 28px;
+	color: #2c2a2a;
+	font: bold;
+
+	
+}
+
+#forma .potvrda{
+color:black;
+
+}
+#forma .text{
+	color: #004d4d;
+
+}
